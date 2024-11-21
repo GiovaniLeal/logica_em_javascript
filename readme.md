@@ -10,6 +10,8 @@ Neste repositório está armazenado desafios de lógica utilizando :
 
  ### Cada exercício possui **ao menos duas alternativas** de resolução.
 
-1. Média Escolar
-2. Calculo de IMC
-3. Valor final de um produto com juros ou desconto 
+:one: Média Escolar
+
+:two: Calculo de IMC
+
+3️⃣ Valor final de um produto com juros ou desconto 
