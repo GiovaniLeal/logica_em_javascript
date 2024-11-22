@@ -61,7 +61,37 @@ function calculaValorFinal (valor, formaPagamento){
     return valorFinal;
 
 }
-
+//Chamada da função calculaValorFinal e saida esperada
 console.log(`Valor a pagar R$: ${calculaValorFinal(valorProduto,selecaoPagamento)}`);
+
+
+//--Terceira resolução 
+
+//função que aplica o desconto no valor 
+function aplicarDesconto (valor, desconto){
+    return valor - (valor * desconto)
+}
+
+//função que aplica o juros no valor 
+function aplicarJuros (valor, desconto) {
+    return valor + (valor * desconto)
+}
+
+//função que valida a forma de pagamento e chama as funções de desconto e juros
+function verificarPagamento (preco, Pagamento){
+
+    if(Pagamento === 1 ) {
+        return aplicarDesconto(preco,0.1);
+    } else if (Pagamento === 2) {
+        return aplicarDesconto(preco,0.15);
+    } else if (Pagamento === 3){
+        return preco;
+    } else {
+        return aplicarJuros (preco, 0.1) ;
+    }   
+}
+
+//Chamada da função verificarPagamento e saida esperada
+console.log(`Total R$:${verificarPagamento(100,3)}`);
 
 

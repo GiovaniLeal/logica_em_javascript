@@ -12,6 +12,10 @@
 
 #### :one: Média Escolar
 
-#### :two: Calculo de IMC
+#### :two: Calculo IMC
 
-#### 3️⃣ Valor final de um produto com juros ou desconto 
+#### 3️⃣ Valor de Produto (com juros ou desconto )
+
+#### :four: Calculo de combustível.
+
+
